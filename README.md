@@ -5,7 +5,7 @@ Quantitative features of the heart rate variability (HRV) for newborn infants, s
 example [Goulding et al. 2015](#references).
 
 ---
-[Requirements](#requires) | [Functions](#functions) | [Example](#example) |
+[Requirements](#requires) | [Functions](#main-functions) | [Example](#example) |
 [References](#references) | [Contact](#contact)
 
 
