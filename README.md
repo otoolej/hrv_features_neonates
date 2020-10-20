@@ -13,7 +13,7 @@ example [Goulding et al. 2015](#references).
 Matlab ([Mathworks](http://www.mathworks.co.uk/products/matlab/)) version R2020a or newer
 with the statistics toolbox. (Should work on older versions but not tested.)
 
-Add this directory to the Matlab paths. See [how to add
+Add this directory to the Matlab path. See [how to add
 path](https://uk.mathworks.com/help/matlab/matlab_env/add-remove-or-reorder-folders-on-the-search-path.html)
 for more details.
   
@@ -23,7 +23,7 @@ for more details.
   * Set parameters in `hrv_EAR.m`
   * Estimate features with `hrv_features.m`
 
-For more information on function type `help <filename.m>`.
+For more information on function type `help <filename.m>`. 
 
 
 ## Features
@@ -37,6 +37,8 @@ For more information on function type `help <filename.m>`.
 | HF\_power     | power in the high frequency band (0.2 to 2 Hz)         |
 | LF\_HF\_ratio | LF\_power:HF\_power ratio                              |
 | TINN          | triangular interpolation of NN interval histogram      |
+
+TINN function from [HRVTool](https://github.com/MarcusVollmer/HRV/).
 
 ## Example
 

@@ -25,7 +25,7 @@
 % John M. O' Toole, University College Cork
 % Started: 02-11-2017
 %
-% last update: Time-stamp: <2020-10-20 15:42:25 (otoolej)>
+% last update: Time-stamp: <2020-10-20 17:46:58 (otoolej)>
 %-------------------------------------------------------------------------------
 function [hrv_feats_avg_tb, hrv_feats_epoch_tb] = hrv_features(rr_peaks_st, params)
 if(nargin < 1 || isempty(rr_peaks_st)), rr_peaks_st=[]; end
@@ -51,7 +51,7 @@ hrv_feats_epoch_tb = [];
 for n=1:length(rr_peaks_st)
     hrv_feats_avg_tb.code(n) = {rr_peaks_st(n).code};
     if(DBverbose)
-        dispVars(rr_peaks_st(n).code);    
+        fprintf('baby = %s\n', rr_peaks_st(n).code);    
     end
 
     
