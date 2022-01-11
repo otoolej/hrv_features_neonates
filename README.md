@@ -2,7 +2,7 @@
 
 
 Quantitative features of the heart rate variability (HRV) for newborn infants, see for
-example [Goulding et al. 2015](#references).
+example [Garvey et al., 2021](#references).
 
 ---
 [Requirements](#requires) | [Functions](#main-functions) | [Example](#example) |
@@ -91,10 +91,16 @@ Epochs are 5 minutes with 50% overalp (set in `hrv_EAR.m`).
 
 ## References
 
-1. Goulding RM, Stevenson NJ, Murray DM, Livingstone V, Filan PM, Boylan GB. Heart rate
+1. Garvey AA, Pavel AM, O’Toole JM, Walsh BH, Korotchikova I, Livingstone V, Dempsey EM,
+   Murray DM, and Boylan GB. "Multichannel EEG abnormalities during the first 6 hours in
+   infants with mild hypoxic–ischaemic encephalopathy." Pediatr Res. 2021;
+   90:117–24. [DOI: 10.1038/s41390-021-01412-x](https://doi.org/10.1038/s41390-021-01412-x)
+
+2. Goulding RM, Stevenson NJ, Murray DM, Livingstone V, Filan PM, Boylan GB. Heart rate
    variability in hypoxic ischaemic encephalopathy: correlation with EEG grade and
-   two-year neurodevelopmental outcome. Pediatr Res. 2015 May;77(5):681-7. doi:
-   [10.1038/pr.2015.28](https://doi.org/10.1038/pr.2015.28)
+   two-year neurodevelopmental outcome. Pediatr Res. 2015 May;77(5):681-7. 
+   [DOI: 10.1038/pr.2015.28](https://doi.org/10.1038/pr.2015.28)
+
 
 
 ## Contact
